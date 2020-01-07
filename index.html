@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Mewtwo Strikes Again!</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
 
@@ -11,12 +12,41 @@
       <img src="mewtwoStrikesBack.png" alt="MewTwo Logo" id ="mewtwoLogo">
     </header>
 
+    <div class="title-row">
+      <img src="pokeball.svg" class="pokeball" alt="">
+      <h3 class="instructions-title">Instructions</h3>
+      <img  src="pokeball.svg" class="pokeball" alt="">
+    </div>
+
+    <table class="instructions-row">
+      <tr>
+        <td class="instruction-number">1</td>      <!--renglon 1 -->
+        <td class="instruction-text">Hiding behind one of these doors is the mythical pokemon Mewtwo.</td>
+      </tr>
+
+      <tr>
+        <td class="instruction-number">2</td>    <!--renglon 2 -->
+        <td class="instruction-text">Your mission is to open all of the doors without running into Mewtwo.</td>
+      </tr>
+
+      <tr>
+        <td class="instruction-number">3</td>    <!--renglon 3 -->
+        <td class="instruction-text">If you manage to avoid Mewtwo until you open the very last door, you win!</td>
+      </tr>
+
+      <tr>
+        <td class="instruction-number">4</td>    <!--renglon 4 -->
+        <td class="instruction-text">See if you can score a winning streak!</td>
+      </tr>
+    </table>
+
     <div class="door-row">
       <img id="door1" class ="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" alt="door one">
       <img id="door2" class ="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" alt="door two">
       <img id="door3" class ="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" alt="door three">
     </div>
 
+    <div id="start" class="button-row ">Good Luck!</div>
 
   </body>
   <script src="app.js" charset="utf-8"></script>
