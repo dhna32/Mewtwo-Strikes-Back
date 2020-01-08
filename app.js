@@ -2,7 +2,7 @@
 
 //jscs:disable
 let doorImage1 = document.querySelector('#door1');
-const mewTwo = 'https://dhna32.github.io/Chore-Door/mewtwo.svg'; //botdoorpath
+const mewTwo = 'https://dhna32.github.io/Mewtwo-Strikes-Back/mewtwo.svg'; //botdoorpath
 let doorImage2 = document.querySelector('#door2');
 const pikachu = 'pikachu.png';
 let doorImage3 = document.querySelector('#door3');
