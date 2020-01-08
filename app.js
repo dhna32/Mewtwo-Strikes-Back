@@ -2,7 +2,7 @@
 
 //jscs:disable
 let doorImage1 = document.querySelector('#door1');
-const mewTwo = 'file:///home/diego/Documents/CODE/CodeCademy/Unit6/Chore-Door/mewtwo.svg'; //botdoorpath
+const mewTwo = 'https://dhna32.github.io/Chore-Door/mew.svg'; //botdoorpath
 let doorImage2 = document.querySelector('#door2');
 const pikachu = 'pikachu.png';
 let doorImage3 = document.querySelector('#door3');
